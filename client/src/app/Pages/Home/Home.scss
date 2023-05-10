@@ -1,0 +1,38 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 180px);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left {
+    width: 40%;
+
+    h1 {
+      margin-bottom: 32px;
+    }
+
+    p {
+      margin-bottom: 32px;
+      color: #333;
+    }
+
+    .button-container {
+      margin-top: 48px;
+    }
+  }
+
+  .right {
+    width: 45%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

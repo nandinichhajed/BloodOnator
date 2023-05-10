@@ -1,0 +1,70 @@
+.RegisterModal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -40px;
+  transition: all 3s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+  }
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  .radioContainer {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: space-between;
+    color: var(--paragraph-color);
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    span,
+    label {
+      font-size: 14px;
+    }
+  }
+
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+
+    .inputCon {
+      width: 100%;
+    }
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    text-align: center;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: var(--primary-color-hover);
+    }
+  }
+}
